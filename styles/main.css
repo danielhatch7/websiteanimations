@@ -318,7 +318,7 @@ a:focus {
   border-left: 16px solid #ffffff; */
   border: 16px solid var(--main-color-light);
   border-top: 16px solid var(--main-color-dark);
-  animation: load 4000ms infinite ease-in-out;
+  animation: load 2000ms infinite ease-in-out;
 }
 
 @keyframes load {

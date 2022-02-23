@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Might want to change this title later. -->
+    <title>Just Me</title>
+    <meta name="description"
+        content="This is a website for an amazing business that definitely exists and is bringing in millions of dollars worth of revenue each minute.">
+
+    <!--styles-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Rowdies&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="./browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div class="navbar">
+        <header>
+            <nav>
+                <ul>
+                    <li><a>Home</a></li>
+                    <li><a href="about/">About</a></li>
+                    <li><a href="form/">Form</a></li>
+                </ul>
+            </nav>
+            <svg>
+                <use href="#menu-icon" />
+            </svg>
+            <svg>
+                <symbol id="menu-icon" viewbox="0 0 120 120">
+                    <line x1="15" x2="105" y1="25" y2="25" stroke="black" stroke-width="10" stroke-linecap="round" />
+
+                    <line x1="15" x2="105" y1="60" y2="60" stroke="blue" stroke-width="10" stroke-linecap="round" />
+
+                    <line x1="15" x2="105" y1="95" y2="95" stroke="red" stroke-width="10" stroke-linecap="round" />
+                </symbol>
+            </svg>
+        </header>
+    </div>
+
+    <div class="hero">
+        <picture>
+            <source srcset="images/profile-1920x930.jpg" media="(min-width: 901px)">
+            <source srcset="images/profile-900x436.jpg" media="(min-width: 501px)">
+            <source srcset="images/profile-500x242.jpg" media="(max-width: 500px)">
+            <img src="images/profile-900w.jpg" alt="daniel profile">
+        </picture>
+        <div class="hero-text">
+            <h1>DANIEL HATCH</h1>
+            <p>Something Interesting</p>
+        </div>
+    </div>
+
+    <main>
+
+        <article>
+            <h2>All About Me</h2>
+            <p>Hi! I'm from Lindon, UT. I currently am studying computer science at BYU. I don't know what else to say
+                about myself right now so this will be the end.</p>
+            <a class="button">Contact Me</a>
+        </article>
+        <article>
+            <h2>Goals and Dreams</h2>
+            <p>I have lots goals and dreams that are <em>really</em> great and have <strong>lots</strong> of potential.
+                If I had
+                all the time in the world then I would write about them all. I hope that one day I will be able to
+                accomplish all of my goals and dreams.</p>
+            <figure>
+                <img src="images/Profile.jpg" alt="Profile picture" width="500" height="500">
+                <figcaption>Profile picture</figcaption>
+            </figure>
+            <h3>Key terms</h3>
+            <p>Here are some random words that I looked up the definition to.</p>
+            <dl>
+                <dt>Subniveal</dt>
+                <dd>Under snow</dd>
+                <dt>Undulationism</dt>
+                <dd>Theory that light consists of waves</dd>
+                <dt>Jaunce</dt>
+                <dd>To prance; to cause a horse to prance.</dd>
+            </dl>
+            <a class="button">Learn More</a>
+        </article>
+    </main>
+
+    <aside>
+        <h2>Talents and Hobbies</h2>
+        <p>Here are some of the things I like to do</p>
+        <ol>
+            <li>Computer stuffs</li>
+            <li>Outdoor stuffs
+                <ul>
+                    <li>Mountain biking</li>
+                    <li>Skiing</li>
+                    <li>Camping</li>
+                    <li>Lots more</li>
+                </ul>
+            </li>
+            <li>Sports. Any and all.</li>
+            <li>Learning about <a href="https://www.spacex.com/">SpaceX</a></li>
+            <li>Having fun</li>
+        </ol>
+    </aside>
+
+    <div class="cards">
+        <div class="card">
+            <a>
+                <div class="image-wrapper">
+                    <img src="https://unsplash.it/id/1029/400/400/" width="400" height="400" alt="central park, NYC">
+                </div>
+                <p class="overlay">Hello</p>
+            </a>
+        </div>
+        <div class="card">
+            <a>
+                <div class="image-wrapper">
+                    <img src="https://unsplash.it/id/1040/400/400" width="400" height="400" alt="castle">
+                </div>
+                <p class="overlay">I</p>
+            </a>
+        </div>
+        <div class="card">
+            <a>
+                <div class="image-wrapper">
+                    <img src="https://unsplash.it/id/1041/400/400" width="400" height="400" alt="wave">
+                </div>
+                <p class="overlay">Am</p>
+            </a>
+        </div>
+        <div class="card">
+            <a>
+                <div class="image-wrapper">
+                    <img src="https://unsplash.it/id/106/400/400" width="400" height="400" alt="flowers">
+                </div>
+                <p class="overlay">Daniel</p>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Here is a paragraph to go into my footer. One day it will be more professional.</p>
+    </footer>
+
+</body>
+
+
+</html>

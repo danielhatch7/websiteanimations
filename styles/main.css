@@ -296,9 +296,15 @@ a:focus {
   transform: scale(1.05);
 }
 
+.form body {
+  position: relative;
+}
 .loader-wrapper {
   /* background-color: #fff; */
-  display: flex;
+  /* display: flex; */
+  position: fixed;
+  left: 50%;
+  top: 35%;
   align-items: center;
   justify-content: center;
   height: 80vh;
